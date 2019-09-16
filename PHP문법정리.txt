@@ -1,0 +1,23 @@
+PHP
+
+1) 변수 정의 : $ 뒤에 변수명 붙임
+ex. $a = 10;
+
+2) echo : 문자열 출력.
+ex. echo "a는 $a 이다."
+
+3) 배열 사용 : array(v1, v2, ...)
+ex1. 
+$nums = array(1,2,3,4,5);
+for($a = 0; $a < 5; $a++)
+ echo "$nums[$a]";
+
+ex2. 
+$nums = array(array(1,3,5), array(2,4,6));
+
+4) 기타함수
+number_format(num) : num을 금액 단위로 표기한 문자열 반환
+strchr(str, char) : str에서 마지막으로 등장한 char과 그 뒤의 문자열 반환
+strlen(str) : 문자열의 길이 반환
+substr(str, idx, num) : 문자열의 idx번째 문자에서부터 num개의 문자 반환
+explode(char, str): char을 기준으로 str 분리해서 list로 반환
